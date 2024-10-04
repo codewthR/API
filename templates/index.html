@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Search</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Location Search App</h1>
+        <input type="text" id="search-input" placeholder="Enter a location..." aria-label="Location search">
+        <button onclick="performSearch()">Search</button>
+        <div id="spinner" class="spinner" style="display:none;">
+            <i class="fas fa-spinner fa-spin"></i> Loading...
+        </div>
+        <div id="results" class="results"></div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
