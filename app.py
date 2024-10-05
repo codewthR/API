@@ -46,4 +46,4 @@ async def search(query: str):
 
 
 
-# to run enter this --- uvicorn app:app --reload
+# to run enter this --- "uvicorn app:app --reload"
